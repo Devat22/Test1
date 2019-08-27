@@ -8,7 +8,7 @@ import com.rjt.twofrags.fragments.FragmentTwo
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),FragmentOne.OnFragmentInteractionListener {
-    private val fr2:
+    private val fr2:FragmentTwo? = null
     override fun onFragmentInteraction(uri: String) {
         var fr2 = FragmentTwo()
         var tr = supportFragmentManager.beginTransaction()
